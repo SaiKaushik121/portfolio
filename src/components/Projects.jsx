@@ -2,6 +2,7 @@ import { FaGithub, FaExternalLinkAlt, FaReact, FaNodeJs } from "react-icons/fa";
 import { SiDjango, SiPostgresql, SiVite } from "react-icons/si";
 import  tictactoeimg  from "../assets/tictactoe.png";
 import queuemgmt from "../assets/queuemgmt.png";
+import geminiimg from "../assets/gemini.png"
 
 function Projects() {
   // this below state is for adding fiters for the projects see the project filter code below(commented one)
@@ -40,6 +41,23 @@ function Projects() {
         //live: "#" // REPLACE: Add your live demo link if available
       },
     },
+     {
+      title: "Gemini Clone",
+      description:
+        "Gemini Clone built using React.js and powered by the Gemma 3 model for handling AI prompts.",
+      image: geminiimg, // Replace with project image
+      tags: ["web-app", "frontend"],
+      technologies: [
+        { name: "ReactJS", icon: <FaReact /> },
+        { name: "State Management", icon: null },
+        { name: "Context API", icon: null },
+        {name:"Responsiveness", icon:null}
+      ],
+      links: {
+        github: "https://github.com/SaiKaushik121/GeminiClone", // REPLACE: Add your GitHub repo link
+        live: "https://saikaushik121.github.io/GeminiClone/" // REPLACE: Add your live demo link if available
+      },
+    }
     // REPLACE: Add more projects as needed
   ];
 
