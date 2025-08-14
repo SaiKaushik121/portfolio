@@ -123,7 +123,7 @@ export default function Contact() {
               <h4 className="font-bold mb-4">Connect with me</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://www.linkedin.com/in/sai-kaushik-sridhara-366624201/" 
+                  href="https://www.linkedin.com/in/sai-kaushik-sridhara-378285379/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-primary hover:text-white transition-all"

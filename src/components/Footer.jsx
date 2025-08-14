@@ -33,7 +33,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://www.linkedin.com/in/sai-kaushik-sridhara-366624201/" 
+                href="https://www.linkedin.com/in/sai-kaushik-sridhara-378285379/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary transition-colors"

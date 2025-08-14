@@ -9,10 +9,15 @@ function Experience() {
       period: "Sept 2021 - Dec 2023",
       description: [
         "Developed modern UI for Zurich's Travel Insurance application with Azure B2C for authentication.",
+
         "Created user-friendly 4-step flow: Travel Details, Plan Selection, User Info, and Payment.",
+
         "Designed and integrated policy portfolio where users can view, modify, cancel, or claim policies.",
+
         "Applied reusable components, custom hooks, and responsive design using React, HTML5, and CSS3.",
+
         "Collaborated with backend MuleSoft team to align frontend APIs with INSIS insurance plan data.",
+        
         "Also contributed to Japan's Earthquake Insurance platform, co-branded with Docomo, ensuring seamless integration within Docomo's native app.",
       ],
       technologies: [
