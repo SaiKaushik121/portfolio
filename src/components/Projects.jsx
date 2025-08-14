@@ -3,12 +3,32 @@ import { SiDjango, SiPostgresql, SiVite } from "react-icons/si";
 import  tictactoeimg  from "../assets/tictactoe.png";
 import queuemgmt from "../assets/queuemgmt.png";
 import geminiimg from "../assets/gemini.png"
+import aiResumeBuilder from "../assets/aiResumeBuilder.png"
 
 function Projects() {
   // this below state is for adding fiters for the projects see the project filter code below(commented one)
   //const [activeFilter, setActiveFilter] = useState('all');
 
   const projects = [
+
+    {
+  title: "AI Resume Builder",
+  description:
+    "Fully responsive AI-powered resume builder with multi-step forms, skill gap analysis, and learning suggestions using Google Gemini API.",
+  image: aiResumeBuilder, // Replace with your project image import
+  tags: ["web-app", "front-end"],
+  technologies: [
+    { name: "React.js (Vite)", icon: <SiVite /> },
+    { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+    { name: "Google Gemini API", icon: <SiGooglecloud /> }, // Replace with suitable Gemini icon
+    { name: "React Router", icon: <SiReactrouter /> },
+    { name: "html2pdf", icon: <SiJavascript /> }
+  ],
+  links: {
+    github: "https://github.com/SaiKaushik121/AiResume", // REPLACE with actual GitHub repo link
+    live: "https://saikaushik121.github.io/AiResume/" // REPLACE with live demo link if available
+  },
+},
     {
       title: "Queue Ease",
       description:
