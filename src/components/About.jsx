@@ -1,6 +1,5 @@
 import { FaCode, FaLaptopCode, FaMobile } from 'react-icons/fa';
 import kaushik from "../assets/kaushik.jpg"
-import resume from "/Sai_Kaushik_Sridhara_FullStack_Developer.docx"
 
 export default function About() {
   return (
@@ -82,8 +81,8 @@ export default function About() {
             
             {/* Call to action */}
             <div className="mt-10 animate-on-scroll">
-              <a 
-                href= {resume} 
+              <a
+                href="/Sai_Kaushik_Sridhara_FullStack_Developer.docx" 
                 className="btn-primary"
                 download="Sridhara_Sai_Kaushik_Resume.pdf"
                 rel="noopener noreferrer"
