@@ -82,7 +82,7 @@ export default function About() {
             {/* Call to action */}
             <div className="mt-10 animate-on-scroll">
               <a
-                href="/Sai_Kaushik_Sridhara_FullStack_Developer.docx" 
+                href="/Sai_Kaushik_Fullstack_Resume.docx" 
                 className="btn-primary"
                 download="Sridhara_Sai_Kaushik_Resume.pdf"
                 rel="noopener noreferrer"
