@@ -1,5 +1,5 @@
 import { FaGithub, FaExternalLinkAlt, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiDjango, SiPostgresql, SiVite } from "react-icons/si";
+import { SiDjango, SiPostgresql, SiVite, SiTailwindcss,SiGooglecloud,SiReactrouter,SiJavascript } from "react-icons/si";
 import  tictactoeimg  from "../assets/tictactoe.png";
 import queuemgmt from "../assets/queuemgmt.png";
 import geminiimg from "../assets/gemini.png"
