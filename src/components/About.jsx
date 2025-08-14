@@ -1,6 +1,6 @@
 import { FaCode, FaLaptopCode, FaMobile } from 'react-icons/fa';
 import kaushik from "../assets/kaushik.jpg"
-import resume from "/Resume_Kaushik_developer.pdf"
+import resume from "/Sai_Kaushik_Sridhara_FullStack_Developer.docx"
 
 export default function About() {
   return (
